@@ -39,9 +39,10 @@ header{
     height: 40px;
 }
 .Follow{
-    margin-left: 20px;
-    margin-right: 20px;
-    gap: 24px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
 }
 .follow_bg{
     width: 272px;
@@ -66,14 +67,10 @@ header{
     height: auto;
     background-image: url(./images/Group\ 14.png);
     background-repeat: no-repeat;
-    /* border: brown solid 1px; */
 }
 .size{
     width: 50%;
 }
-/* .first-sec-d1-contain{
-    justify-content: center;
-} */
 .d1-play{
     padding-top: 50px;
     padding-left:125px;
@@ -147,14 +144,11 @@ header{
     font-weight: 600;
     text-transform: uppercase;
 }
-/* second section */
-
 .second-sec{
     display: flex;
     align-items: center;
     height: 60vh;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-    /* border: #8758F1 solid 1px; */
 }
 .second-sec-d1{
     margin: 0 120px 0 120px;
@@ -269,8 +263,9 @@ header{
     top: 0;
     background-color: rgba(0, 0, 0, 0.515);
     overflow: hidden;
-    transition: 1s ease;
+    transition: 0.5s ease;
     opacity: 0;
+    cursor: pointer;
 
 }
 .third-container:hover .overlay{
@@ -289,7 +284,6 @@ header{
     margin-top: 40px;
     display: flex;
     gap: 20px;
-    /* align-items: center; */
 
 }
 .forth-sec-d1-text{
@@ -330,7 +324,7 @@ header{
 }
 .second-img{
     margin-top: 290px;
-    margin-left: -70px ;
+    margin-left: -69px ;
     width: 240px;
     height: autopx;
 }
@@ -365,7 +359,6 @@ header{
     color: #0B0223;
     font-size: 17px;
     font-weight: 600;
-    
 }
 .fifth-sec-games:hover{
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
